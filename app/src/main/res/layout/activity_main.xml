@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        android:padding="26dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="NumberPage"
+        />
+
+    <Button
+        android:id="@+id/fam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Family Members "
+        android:padding="26dp"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="FamilyPage"
+        />
+
+    <Button
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Colors"
+        android:padding="26dp"
+        android:background="@android:color/holo_purple"
+        />
+
+    <Button
+        android:id="@+id/phrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phrases"
+        android:padding="26dp"
+        android:background="@android:color/holo_blue_light"
+        />
+
+</LinearLayout>
